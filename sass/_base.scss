@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: $black;
+    color: $white;
+}
+
+button,a {
+    text-align: center;
+    text-decoration: none;
+    line-height: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1313px;
+    margin: 0 auto;
+    padding: 0 17px;
+}

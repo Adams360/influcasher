@@ -1,0 +1,45 @@
+.footer {
+    border-top: 6px solid $brand-100;
+    padding: 20px 0;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__brand {
+        img {
+            max-width: 195px;
+        }
+    }
+
+    &__menu {
+        li, a {
+            display: inline-block;
+        }
+
+        &--social {
+            li {
+                margin: 0 20px;
+            }
+            
+            a {
+                width: 38px;
+                height: 38px;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        &--links {
+            a {
+                font-size: 16px;
+                color: $white;
+            }
+        }
+    }
+}

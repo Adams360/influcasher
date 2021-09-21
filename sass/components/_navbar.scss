@@ -1,0 +1,103 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 105px;
+    padding: 5px 0;
+    background-color: rgba($black, 1);
+    z-index: 100;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__brand {
+        img {
+            max-width: 195px;
+        }
+    }
+
+    &__menu {
+
+        @include md {
+            position: absolute;
+            top: 105px;
+            right: 0;
+            width: 60vw;
+            height: 100vh;
+
+            background-color: $black;
+            padding: 30px;
+
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            transform: translateX(100%);
+            transition: transform .3s ease-in-out;
+
+            &.is-active {
+                transform: translateX(0%);
+            }
+        }
+
+        li {
+            display: inline-block;
+            margin: 0 15px;
+
+            @include md {
+                display: block;
+                margin: 0 0 30px;
+                font-size: 25px;
+            }
+
+            
+            a {
+                font-size: 19px;
+                font-weight: 400;
+                color: $white;
+                padding: 5px 10px;
+                border-radius: 10px;
+                &:hover {
+                   color: $brand-100;
+                }
+            }
+
+            &.is-active {
+                a {
+                    background-color: $brand-100;
+                    color: $brand-dark;
+                    font-weight: 600;
+                }
+            }
+
+        }
+    }
+
+    &__cta {
+        background: map-get($gradients, 'cta');
+        padding: 10px 25px;
+        border-radius: 23.5px;
+
+        font-size: 19px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: $brand-500;
+
+        @include md {
+            font-size: 25px;
+            padding: 20px;
+            margin: 4rem 0 0;
+        }
+
+    }
+
+    &__hamburger {
+        @include md-up {
+            display: none !important;
+        }
+    }
+}

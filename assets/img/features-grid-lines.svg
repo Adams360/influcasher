@@ -1,0 +1,26 @@
+<svg width="1209" height="411" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="#FFF" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g opacity=".8" style="mix-blend-mode:overlay">
+            <g opacity=".422">
+                <path style="mix-blend-mode:overlay" d="M.5.35v406.3M81.5.35v406.3M162.5.35v406.3M245.5.35v406.3M326.5.35v406.3" transform="translate(29 3)"/>
+            </g>
+        </g>
+        <g opacity=".8" style="mix-blend-mode:overlay">
+            <g opacity=".422">
+                <path style="mix-blend-mode:overlay" d="M.5.35v406.3M81.5.35v406.3M162.5.35v406.3M245.5.35v406.3M326.5.35v406.3" transform="translate(436 1)"/>
+            </g>
+        </g>
+        <g opacity=".8" style="mix-blend-mode:overlay">
+            <g opacity=".422">
+                <path style="mix-blend-mode:overlay" d="M.5.35v406.3M81.5.35v406.3M162.5.35v406.3M245.5.35v406.3M326.5.35v406.3" transform="translate(831 1)"/>
+            </g>
+        </g>
+        <g opacity=".422">
+            <path style="mix-blend-mode:overlay" transform="rotate(90 574 102)" d="M604-532.5v1208"/>
+            <path style="mix-blend-mode:overlay" transform="rotate(90 574 31)" d="M604-603.5v1208"/>
+            <path style="mix-blend-mode:overlay" transform="rotate(90 574 173)" d="M604-461.5v1208"/>
+            <path style="mix-blend-mode:overlay" transform="rotate(90 574 245)" d="M604-389.5v1208"/>
+            <path style="mix-blend-mode:overlay" transform="rotate(90 574 316)" d="M604-318.5v1208"/>
+        </g>
+    </g>
+</svg>

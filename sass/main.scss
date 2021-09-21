@@ -1,0 +1,19 @@
+/* Global Styles */
+@import "./mixins";
+@import "./vars";
+@import "./base";
+
+/* Components Styles */
+@import "./components/navbar";
+@import "./components/features";
+@import "./components/footer";
+
+/* Page Styles */
+@import "./page/hero";
+@import "./page/platforms";
+@import "./page/brand";
+@import "./page/one-stop";
+
+/* Hamburgers @https://jonsuh.com/hamburgers */
+@import "hamburgers-settings";
+@import "../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";

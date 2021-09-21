@@ -1,0 +1,16 @@
+/* Media Queries */
+@mixin md-up {
+    @media (min-width: 951px) { @content; }
+}
+
+@mixin md {
+    @media (max-width: 950px) { @content; }
+}
+
+@mixin sm-up {
+    @media (max-width: 578px) { @content; }
+}
+
+@mixin sm {
+    @media (max-width: 576px) { @content; }
+}

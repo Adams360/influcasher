@@ -1,0 +1,14 @@
+<svg width="121" height="122" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter x="-53.3%" y="-53.3%" width="206.6%" height="206.5%" filterUnits="objectBoundingBox" id="a">
+            <feGaussianBlur stdDeviation="11" in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#68DCFF">
+            <path d="m19.472 4.456 31.93-.001c8.284-.002 15 6.714 15 14.998v.001L66.4 51.398c-.002 8.284-6.717 14.999-15 15l-31.93.002c-8.284.001-15-6.714-15-14.999l.002-31.945c.001-8.283 6.717-14.999 15-15z" opacity=".476" filter="url(#a)" transform="rotate(81 32.805 63.057)"/>
+            <path d="m88.912 42.696 4.37 27.585c1.47 9.273-4.856 17.982-14.13 19.45l-27.6 4.37c-9.273 1.467-17.981-4.86-19.451-14.132l-4.37-27.585c-1.47-9.273 4.856-17.981 14.129-19.45h.001l27.6-4.37c9.273-1.467 17.98 4.86 19.451 14.132z"/>
+        </g>
+        <path d="m19.716 31.815 19.1 14.18 10.768-28.743" stroke="#171D33" stroke-width="5" style="mix-blend-mode:difference" stroke-linecap="round" transform="rotate(4 -323.732 403.54)"/>
+    </g>
+</svg>

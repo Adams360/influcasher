@@ -1,0 +1,11 @@
+.brand {
+    &__inner {
+        display: flex;
+        align-items: center;
+    }
+    &__img {
+        max-width: 500px;
+    }
+    &__content {}
+    &__btn {}
+}
